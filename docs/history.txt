@@ -1,0 +1,661 @@
+    1  ls
+    2  hostname
+    3  hostname -I
+    4  ls -al
+    5  java
+    6  java -version
+    7  python -version
+    8  python --version
+    9  java -version
+   10  raspistill  -o Desktop/image.jpg
+   11  raspistill  --help
+   12  raspistill  --demo
+   13  raspistill  --preview
+   14  raspivid
+   15  raspivid -t 0
+   16  python --version
+   17  python3
+   18  which python
+   19  which python3
+   20  ls /usr/local/opt/python/libexec/bin
+   21  ls /usr/local/opt/python/
+   22  which python3
+   23  ls -al /usr/bin/python3
+   24  pip3
+   25  pip
+   26  pip3
+   27  pip install virtualenv virtualenvwrapper
+   28  pwd
+   29  vi .bashrc
+   30  source ~/.bashrc
+   31  l .local
+   32  l
+   33  ll
+   34  pwd
+   35  vi .bashr
+   36  vi .bashrc
+   37  ls -CF
+   38  ll
+   39  ls .local/
+   40  ls .local/bin
+   41  vi .bashrc
+   42  pwd
+   43  vi .bashrc
+   44  source .bashrc
+   45  ls -al /usr/local/bin/
+   46  virtualenv
+   47  which virtualenvwrapper.sh
+   48  vi .bashrc
+   49  source .bashrc
+   50  vi .bashrc
+   51  source .bashrc
+   52  /usr/bin/python3
+   53  virtualenv
+   54  virtualenvwrapper.sh 
+   55  pip install virtualenv
+   56  pip install virtualenvwrapper
+   57  virtualenvwrapper.sh 
+   58  pip3 install virtualenv
+   59  pip3 install virtualenvwrapper
+   60  virtualenvwrapper.sh
+   61  l
+   62  vi .bashrc
+   63  alias l='ls -al'
+   64  l
+   65  ls -l
+   66  vi .bashrc
+   67  exit
+   68  cd livefree/myhome/
+   69  ls
+   70  cd simpledemo/
+   71  ls
+   72  LD_PRELOAD=/usr/lib/arm-linux-gnueabihf/libatomic.so.1 python demo.py
+   73  export LD_PRELOAD=/usr/lib/arm-linux-gnueabihf/libatomic.so.1
+   74  python demo.py 
+   75  DF
+   76  df
+   77  vi ~/.bashrc 
+   78  exit
+   79  ps aux 
+   80  ps aux  | python
+   81  ps 
+   82  kill -9 15503
+   83  ps aux  | grep python
+   84  ls -lexit
+   85  exit
+   86  l
+   87  workon
+   88  mkvirtualenv myhome -p python3
+   89  workon
+   90  l /home/pi/.local/bin/
+   91  cd .virtualenvs/
+   92  l
+   93  cd myhome
+   94  ls
+   95  ls bin
+   96  ls -al
+   97  workon myhome
+   98  cd ..
+   99  mkproject myhome -p python3
+  100  df
+  101  rm -rf myhome
+  102  cd 
+  103  python
+  104  which mkvirtualenv
+  105  mkvirtualenv
+  106  mkvirtualenv cv2
+  107  echo $WORKON_HOME
+  108  echo $PATH
+  109  l .virtualenvs/cv2/bin/activate
+  110  .virtualenvs/cv2/bin/activate
+  111  l .virtualenvs/cv2/bin
+  112  vi .virtualenvs/cv2/bin/activate
+  113  chmod +x .virtualenvs/cv2/bin/activate
+  114  workon c2
+  115  workon cv2
+  116  source ~/.bashrc
+  117  workon cv2
+  118  vi .bashrc
+  119  python
+  120  python3
+  121  date-alternatives --list python
+  122  update-alternatives --list python
+  123  update-alternatives
+  124  update-alternatives --list python
+  125  update-alternatives --list python3
+  126  update-alternatives --install /usr/bin/python python /usr/bin/python3
+  127  update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+  128  sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+  129  update-alternatives --list python
+  130  python
+  131  workon cv
+  132  mkvirtualenv cv
+  133  pip
+  134  pip --version
+  135  apt list --installed
+  136  apt list --installed | grep libhdf5
+  137  apt list python*opencv*
+  138  apt show python3-opencv
+  139  pwd
+  140  mkdir livefree
+  141  cd livefree
+  142  mkdir myhome
+  143  git
+  144  cd ..
+  145  rmdir myhome
+  146  ls
+  147  pwd
+  148  cd livefree
+  149  l
+  150  rmdir myhome
+  151  git clone https://github.com/bluesunrise/myhome.git
+  152  ls
+  153  cd myhome
+  154  ls
+  155  cd simpledemo/
+  156  l
+  157  more demo.py 
+  158  python demo.py 
+  159  pip list opencv-python
+  160  pip
+  161  pip search opencv-python
+  162  pip install opencv-python
+  163  ls -al
+  164  python demo.py 
+  165  sudo apt-get update && sudo apt-get upgrade
+  166  df 
+  167  sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
+  168  sudo apt-get install build-essential cmake pkg-config
+  169  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+  170  sudo apt-get install libxvidcore-dev libx264-dev
+  171  sudo apt-get install libgdk-pixbuf2.0-dev libpango1.0-dev
+  172  sudo apt-get install libgtk2.0-dev libgtk-3-dev
+  173  sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
+  174  sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
+  175  python demo.py 
+  176  udo apt-get install libcblas-dev
+  177  sudo apt-get install libhdf5-dev
+  178  sudo apt-get install libhdf5-serial-dev
+  179  sudo apt-get install libatlas-base-dev
+  180  python demo.py 
+  181  sudo apt-get install libcblas-dev
+  182  pip uninstall opencv-python
+  183  pip uninstall opencv-contrib-python
+  184  pip install opencv-contrib-python
+  185  saaaaaaaaaaaaaaaaaaaaa
+  186  python demo.py 
+  187  pip3 install opencv-python; sudo apt-get install -y libcblas-dev libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev  libqtgui4  libqt4-test
+  188  sudo apt-get install libatlas-base-dev
+  189  python demo.py
+  190  LD_PRELOAD=/usr/lib/arm-linux-gnueabihf/libatomic.so.1 python demo.py 
+  191  history
+  192  pwd
+  193  history > ~/history.txt
+  194  more ~/history.txt 
+  195  cd ../
+  196  l
+  197  cd facedemo/
+  198  vi facestreamdemo.py 
+  199  cd livefree/myhoe
+  200  cd livefree/myhome
+  201  ls
+  202  cd facedemo/
+  203  ls
+  204  python facedemo.py 
+  205  vi facestreamdemo.py 
+  206  python facestreamdemo.py 
+  207  cd livefree/myhome/
+  208  git status
+  209  git pull
+  210  cd ..
+  211   python3 ./opencv-face-recognition/recognize_video.py -s ./facedemo/fools-in-california.mp4
+  212  pip --version
+  213  pip install imutils
+  214  pip install sklearn
+  215  ls
+  216  vi zoom.py
+  217  ls -al
+  218  vi zoom.py
+  219  mkdir /usr/local/groundwork/config2
+  220  ls
+  221  cd livefree
+  222  ls
+  223  cd myhome
+  224  git status
+  225  git diff
+  226  git status
+  227  git checkout -- facedemo/facestreamdemo.py
+  228  git pull
+  229  history
+  230  python
+  231  python ./opencv-face-recognition/recognize_video.py  -s 
+  232  find . -name fools-in-california.mp4
+  233  python ./opencv-face-recognition/recognize_video.py  -s ./facedemo/fools-in-california.mp4
+  234  ls ~
+  235  pip
+  236  python ./opencv-face-recognition/recognize_video.py  -s ./facedemo/fools-in-california.mp4
+  237  df
+  238  python ./opencv-face-recognition/recognize_video.py  -s ./facedemo/fools-in-california.mp4
+  239  python ./opencv-face-recognition/recognize_video.py 
+  240  cd ..
+  241  ls
+  242  python zoom.py 
+  243  python ./opencv-face-recognition/recognize_video.py 
+  244  cd myhome/
+  245  python ./opencv-face-recognition/recognize_video.py 
+  246  ls
+  247  cd livefree/myhome/
+  248  ls
+  249  find . name fools-in-california.mp4
+  250  find . -name fools-in-california.mp4
+  251  python3 ./opencv-face-recognition/recognize_video.py -s ./facedemo/fools-in-california.mp4
+  252  python3 ./opencv-face-recognition/recognize_video.py
+  253  raspistill -o test.jpg
+  254  python3 ./opencv-face-recognition/recognize_video.py
+  255  cd livefree/myhome/
+  256  ls
+  257  python3 ./opencv-face-recognition/recognize_video.py
+  258  raspivid -t 0
+  259  raspivid 
+  260  df
+  261  echo 0 > /sys/class/backlight/rpi_backlight/bl_power
+  262  sudo -E sh -c 'echo 1 > /sys/class/backlight/rpi_backlight/bl_power'
+  263  sudo -E sh -c 'echo 0 > /sys/class/backlight/rpi_backlight/bl_power'
+  264  vi backlight_on.sh
+  265  chmod -x backlight_on.sh 
+  266  cp backlight_on.sh backlight_off.sh
+  267  vi backlight_off.sh 
+  268  chmod +x backlight_on.sh 
+  269  chmod +x backlight_off.sh 
+  270  ./backlight_off.sh 
+  271  ./backlight_on.sh 
+  272  vi backlight_on.sh 
+  273  ./backlight_on.sh 
+  274  ./backlight_off.sh 
+  275  vi backlight_on.sh 
+  276  vi ./backlight_off.sh 
+  277  ./backlight_off.sh 
+  278  ./backlight_on.sh 
+  279  ls -al
+  280  cd livefree/myhome/
+  281  mkdir scripts
+  282  mv ~/backlight_o*.sh ./scripts/
+  283  git status
+  284  git add scripts/
+  285  git status
+  286  git commit -m "adding backlight scripts"
+  287  git config --global user.email "david@bluesunrise.com"
+  288  git config --global user.name "bluesunrise"
+  289  git commit -m "adding backlight scripts"
+  290  git push
+  291  exit
+  292  cd livefree/myhome/
+  293  ls
+  294  cd scripts
+  295  ls
+  296  ./backlight_off.sh 
+  297  ./backlight_on.sh 
+  298  ./backlight_off.sh 
+  299  ./backlight_on.sh 
+  300  ./backlight_off.sh 
+  301  ./backlight_on.sh 
+  302  cd livefree/myhome/
+  303  cd scripts/
+  304  l
+  305  ./backlight_on.sh 
+  306  ./backlight_off.sh 
+  307  more backlit.py 
+  308  ./backlight_on.sh 
+  309  pip3 install rpi-backlight
+  310  rpi-backlight --get-power
+  311  rpi-backlight --p off
+  312  rpi-backlight -p off
+  313  ls
+  314  python3 -m pytest
+  315  rpi-backlight --p off
+  316  rpi-backlight -p off
+  317  sudo rpi-backlight -p off
+  318  echo 'SUBSYSTEM=="backlight",RUN+="/bin/chmod 666 /sys/class/backlight/%k/brightness /sys/class/backlight/%k/bl_power"' | sudo tee -a /etc/udev/rules.d/backlight-permissions.rules
+  319  sudo rpi-backlight -p off
+  320  rpi-backlight -p off
+  321  echo 'SUBSYSTEM=="backlight",RUN+="/bin/chmod 666 /sys/class/backlight/%k/brightness /sys/class/backlight/%k/bl_power"' | sudo tee -a /etc/udev/rules.d/backlight-permissions.rules
+  322  rpi-backlight -p off
+  323  sudo rpi-backlight -p off
+  324  $ echo 'SUBSYSTEM=="backlight",RUN+="/bin/chmod 666 /sys/class/backlight/%k/brightness /sys/class/backlight/%k/bl_power"' 
+  325  echo 'SUBSYSTEM=="backlight",RUN+="/bin/chmod 666 /sys/class/backlight/%k/brightness /sys/class/backlight/%k/bl_power"' 
+  326  vi /etc/udev/rules.d/backlight-permissions.rules
+  327  ls -al /sys/class/backlight/
+  328  ls -al /sys/class/backlight/rpi_backlight
+  329  /sys/class/backlight/rpi_backlight
+  330  /sys/class/backlight/rpi_backlight/power/
+  331  python
+  332  sudo python3
+  333  sudo
+  334  sudo pip3 install rpi-backlight
+  335  sudo python
+  336  exit
+  337  cd livefree/myhome/scripts/
+  338  ls
+  339  pip3 install python-libxdo
+  340  python
+  341  sudo apt-get install xdotools
+  342  python
+  343  python
+  344  ls
+  345  cd livefree
+  346  ls
+  347  cd myhome/scripts/
+  348  ls
+  349  git pull
+  350  ls
+  351  more mousemove.py 
+  352  python mousemove.py 
+  353  /sys/class/backlight/rpi_backlight/bl_power
+  354  sudo /sys/class/backlight/rpi_backlight/bl_power
+  355  xset -qw
+  356  xset -q
+  357  ls
+  358  c livefree/
+  359  ls
+  360  cd livefree/
+  361  ls
+  362  more zoom.y
+  363  more zoom.py
+  364  ls
+  365  cd myhome
+  366  ls
+  367  cd scrits
+  368  cd scripts
+  369  ls
+  370  more backlit.py
+  371  ls
+  372  ls -al
+  373  more backlit.py 
+  374  ls
+  375  cd ..
+  376  find . -name mousemove.py
+  377  ls
+  378  ls -al
+  379  git pull
+  380  cd scripts
+  381  python mousemove.py 
+  382  xset -q
+  383  ScreenSaverActive=$(curl -s -u xbmc:xbmc -X POST -H 'Content-type: application/json' -d '{"jsonrpc": "2.0", "method": "XBMC.GetInfoBooleans", "params": { "booleans": ["System.ScreenSaverActive "] }, "id": 1}' http://localhost:8080/jsonrpc)
+  384  echo $ScreenSaverActive
+  385  echo $F
+  386  xset -q
+  387  sudo pat install feh -y
+  388  sudo apt install feh -y
+  389  feh -qrYzFD120 --zoom fill ../opencv-face-recognition/dataset/
+  390  cat /etc/os-release 
+  391  pwd
+  392  ls
+  393  cd livefree/
+  394  cd myhome/
+  395  ls
+  396  git pull
+  397  ifconfig -a
+  398  git pull
+  399  cd viewer/
+  400  ls
+  401  python3 viewer-tk.py 
+  402  LS
+  403  ls
+  404  ls images/
+  405  open .
+  406  raspi-config
+  407  sudo raspi-config
+  408  cd livefree/
+  409  cd myhome/
+  410  ls
+  411  cd viewer/images/
+  412  ls
+  413  open .
+  414  cd ..
+  415  ls
+  416  git pull
+  417  git checkout viewe-tk
+  418  git checkout viewer-tk
+  419  cd viewer
+  420  ls
+  421  python3 viewer-tk.py 
+  422  python3 tkapp.py 
+  423  more images/
+  424  ls images/
+  425  ls -al images
+  426  history
+  427  feh images/400153.352842733.jpeg 
+  428  python3 viewer-tk.py 
+  429  git status
+  430  git pull
+  431  cd ..
+  432  mv myhome/ save-myhome
+  433  git clone https://github.com/bluesunrise/myhome.git
+  434  cd myhome/viewer/
+  435  ls
+  436  python3 viewer-tk.py 
+  437  git checkout viewer-tk
+  438  git pull
+  439  python3 viewer-tk.py 
+  440  git pull
+  441  ls images
+  442  python3 viewer-tk.py 
+  443  ss
+  444  cd livefree/myhome/viewer/
+  445  ls
+  446  python3 viewer-tk.py 
+  447  git status
+  448  git pull
+  449  ls
+  450  python viewer-tk.py 
+  451  vi viewer-tk.py 
+  452  ls images/
+  453  rm images/*.jpeg
+  454  vi tkapp.py 
+  455  python viewer-tk.py 
+  456  python3 viewer-tk.py 
+  457  vi tkapp.py 
+  458  python3 viewer-tk.py 
+  459  vi tkapp.py 
+  460  pip list
+  461  git status
+  462  git checkout -- tkapp.py
+  463  git status
+  464  git pull
+  465  python3 viewer-tk.py 
+  466  pwd
+  467  xset dpms force off
+  468  xset dpms
+  469  xset dpms status
+  470  xset dpms q
+  471  xset dpms force off
+  472  ifconfig -a
+  473  cd ..
+  474  ls
+  475  cd pi
+  476  ls
+  477  ccd livefree/
+  478  l
+  479  pw
+  480  pwd
+  481  cd livefree/
+  482  ls
+  483  cd myhome
+  484  ls
+  485  cd scripts
+  486  ls
+  487  python3 motion.py 
+  488  pip list
+  489  pip list | grep motion
+  490  python3 motion.py 
+  491  ls -al
+  492  python3 motion.py 
+  493  cd ..
+  494  ls
+  495  cd viewer
+  496  ls -al
+  497  python3 viewer-tk.py 
+  498  ls
+  499  ifconfig -a
+  500  cd ../scripts
+  501  ls
+  502  python3 motion.py 
+  503  cd ..
+  504  git branch -l
+  505  git pull
+  506  git checkout viewer-thumbs
+  507  git pull
+  508  cd viewer/
+  509  python3 viewer-tk.py 
+  510  python3 viewer-tk.py --action 0
+  511  git pull
+  512  python3 viewer-tk.py --action 0
+  513  git pull
+  514  git branch -l
+  515  python3 viewer-tk.py --action 0
+  516  ls -al
+  517  mv images save-images
+  518  mkdir images
+  519  python3 viewer-tk.py
+  520  python3 viewer-tk.py --thumb-size=100
+  521  git pull
+  522  python3 viewer-tk.py --thumb-size=100
+  523  cd livefree/myhome/
+  524  git status
+  525  cd viewer
+  526  rm -rf images/
+  527  mv save-images/ images/
+  528  git status
+  529  ls images
+  530  git pull
+  531  rm -f __pycache__/
+  532  rm -rf __pycache__/
+  533  git pull
+  534  git checkout viewer-thumbs2
+  535  python3 viewer-tk.py
+  536  ls
+  537  cd livefree/myhome/
+  538  git branch -l
+  539  git pull
+  540  git checkout viewer-buffers
+  541  git pull
+  542  ls
+  543  cd viewer/
+  544  ls
+  545  python3 viewer-tk.py 
+  546  cd
+  547  ls
+  548  cd livefree/
+  549  ls
+  550  cd myhome/
+  551  ls
+  552  git branch -l
+  553  git fetch
+  554  git status
+  555  git checkout viewer-modules
+  556  git pull
+  557  ls
+  558  cd viewer/
+  559  ls
+  560  python viewer-tk.py 
+  561  cd livefree/myhome/viewer/images/
+  562  ls
+  563  open .
+  564  20200513.202753.mp4 
+  565  git pull
+  566  cd ..
+  567  python viewer-tk.py 
+  568  rm images/*.jpeg
+  569  rm images/*.mp4
+  570  ls images/
+  571  python viewer-tk.py 
+  572  ls
+  573  cd livefree/myhome/
+  574  git branch -l
+  575  git pull
+  576  git status
+  577  git checkout -- viewer/
+  578  git merge --abort
+  579  git checkout master
+  580  git branch -D viewer-modules
+  581  git pull
+  582  git checkout viewer-modules
+  583  git pull
+  584  cd viewer
+  585  ls images/
+  586  rm images/*.jpeg
+  587  rm images/*.avi
+  588  rm images/*.mp4
+  589  ls images/
+  590  python viewer-tk.py 
+  591  pip
+  592  pip --version
+  593  pip3 -version
+  594  pip3 --version
+  595  more ~/.bash_profile
+  596  more ~/.bashrc
+  597  cd livefree/myhome/
+  598  ls
+  599  pip freeze
+  600  pip3 fr
+  601  workon 
+  602  workon myome
+  603  workon myhome
+  604  LS
+  605  ls
+  606  ls -al
+  607  source ./.venv/bin/activate
+  608  pip3 freeze
+  609  ls
+  610  ls -al ~/.virtualenvs/
+  611  ls -al ~/.virtualenvs/cv
+  612  ls -al ~/.virtualenvs/cv/bin
+  613  more ~/.virtualenvs/cv/bin/activate
+  614  python -m venv .venv
+  615  ls .env
+  616  ls .venv
+  617  ls .venv/bin
+  618  source ./venv/bin/activate
+  619  ls  ./venv/bin/
+  620  ls  ./.venv/bin/activate
+  621* source  ./.venv/bin/activ
+  622  ls  ./.venv/
+  623  cd viewer
+  624  python3 viewer-tk.py 
+  625  cd ..
+  626  pip3 install cv2
+  627  pip3 install opencv-python
+  628  cd viewer
+  629  python3 viewer-tk.py 
+  630  pip install imutils
+  631  pip install sklearn
+  632  z
+  633  ls *.txt
+  634  cd ..
+  635  ls *.txt
+  636  pip install sklearn
+  637  cd viewer
+  638  python3 viewer-tk.py 
+  639  cd ..
+  640  ls -al .venv/bin
+  641  /usr/bin/python --version
+  642  pip install PIL
+  643  pip install Pillow
+  644  cd viewer
+  645  python3 viewer-tk.py 
+  646  pip3 install imutils
+  647  pip3 install tkinter
+  648  pip3 install matplotlib
+  649  python3 viewer-tk.py 
+  650  pip3 install scikit-learn
+  651  python3 viewer-tk.py 
+  652  cd ..
+  653  pip3 freeze
+  654  pip3 freeze > requirements.txt
+  655  git status
+  656  git pull
+  657  more requirements.txt
+  658  pip3 install python3-tk
+  659  cd viewer/
+  660  python3 viewer-tk.py 
+  661  history > history.txt

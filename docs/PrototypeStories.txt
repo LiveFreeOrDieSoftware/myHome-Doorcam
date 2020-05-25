@@ -1,0 +1,40 @@
+Story 1
+
+When I look at my doorcam I want to see a live stream from the camera, but I also want to see a face, if it has been detected.  That way, if someone turns their back on the camera, or covers their face after walking up, I can still see their face.  The image of the face should be presented beside, or Picture-in-Picture (PiP) with the live stream, so that I can see both.
+
+Note 1
+This project provides a very useful start for streaming video, capturing on motion, managing capture files, and more.  https://elinux.org/RPi-Cam-Web-Interface
+
+Although you can stream video with detection via OpenCV and ‘box’ faces this might not be the best place to start a prototype, since a lot more work will have to be put in to all the machinery to do the stuff that CamWebInt does. Try the face detection based on the two projects below, but the real master of this is the third link, but you will have to filter through his site for specific info on this:
+https://www.hackster.io/mjrobot/real-time-face-recognition-an-end-to-end-project-a10826
+https://maker.pro/raspberry-pi/projects/how-to-set-up-opencv-on-raspberry-pi-for-face-detection
+https://www.pyimagesearch.com/
+
+So, I thought of a cheat.  Face detection on an image... 
+If you look at the CamWebInt doc page they have a section on how to view with a smartphone app, and it requires that an image (cam.jpg) be written to a file in /var/www/html:  https://elinux.org/RPi-Cam-Web-Interface#View_video_stream_on_an_iDevice_.2F_Smartphone
+Right beneath that there is information on a simple live-preview page.
+
+Instead of building all of the machinery from scratch for the prototype, a demonstration can be made by using the ‘simple-preview’, configured to be shown on half the screen (or the whole thing).
+Then, we _grab_ cam.jpg and run Open CV face detection on it, as a still image. If a face is detected it can be shown beside (or PiP) with the live stream.
+
+This considerably simplifies a prototype.
+Install RPi Cam Web Int
+Write/config a window to display the simple stream
+Write some code to fetch the cam.jpg periodically
+Display on detect
+
+
+Story 2
+I don’t want the screen of my doorcam burning away all day.
+I want a sensor on the doorcam that will trigger the screen to ‘wake up’.  This is especially important if I am running on batteries.
+
+Note 2
+This would involve some kind of detection on the screen/screen-side of the rig.  In my image you can see the white PiR ‘wart’ taped to the front of the screen.
+The PiR with RPi is easy enough.  The first link shows how to do it with the GPIO library. The second one is lame, but a good tutorial for kids, that led me to the correct search for the library I was looking for, which the third link. 
+https://maker.pro/raspberry-pi/tutorial/how-to-interface-a-pir-motion-sensor-with-raspberry-pi-gpio
+https://projects.raspberrypi.org/en/projects/parent-detector/4
+https://gpiozero.readthedocs.io/en/stable/recipes.html#motion-sensor
+The challenge here is really a Linux config challenge.  I discovered that it is non-trivial to turn the screen on.  Timing out is pretty easy; triggering an event that turns the screen on (with existing machinery) is tough.  If we could somehow make the PiR motion even look like a HiD even (like hitting a key on the keyboard) it would wake the screen without having to do a ton of work.
+
+
+

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f4791d9-b8b2-4a4d-912c-1b8fbc95da45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/common/facerecorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/facerecorder.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1aC6NEdcyYliDY6PIpUid196BS7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.viewer-tk">
+    <configuration name="threadsafe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="viewer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadsafe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="viewer-tk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="viewer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/viewer-tk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.viewer-tk" />
+        <item itemvalue="Python.threadsafe" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1665" height="350" key="GridCell.Tab.0.bottom" timestamp="1590443443628">
+      <screen x="-3200" y="23" width="3200" height="1697" />
+    </state>
+    <state width="1108" height="381" key="GridCell.Tab.0.bottom/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1587072906413" />
+    <state width="1108" height="212" key="GridCell.Tab.0.bottom/-2560.23.2560.1338/0.23.1680.1027@-2560.23.2560.1338" timestamp="1587072237060" />
+    <state width="1665" height="350" key="GridCell.Tab.0.bottom/-3200.23.3200.1697/0.23.1680.1027@-3200.23.3200.1697" timestamp="1590443443628" />
+    <state width="1665" height="350" key="GridCell.Tab.0.center" timestamp="1590443443627">
+      <screen x="-3200" y="23" width="3200" height="1697" />
+    </state>
+    <state width="1108" height="381" key="GridCell.Tab.0.center/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1587072906413" />
+    <state width="1108" height="212" key="GridCell.Tab.0.center/-2560.23.2560.1338/0.23.1680.1027@-2560.23.2560.1338" timestamp="1587072237059" />
+    <state width="1665" height="350" key="GridCell.Tab.0.center/-3200.23.3200.1697/0.23.1680.1027@-3200.23.3200.1697" timestamp="1590443443627" />
+    <state width="1665" height="350" key="GridCell.Tab.0.left" timestamp="1590443443626">
+      <screen x="-3200" y="23" width="3200" height="1697" />
+    </state>
+    <state width="1108" height="381" key="GridCell.Tab.0.left/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1587072906412" />
+    <state width="1108" height="212" key="GridCell.Tab.0.left/-2560.23.2560.1338/0.23.1680.1027@-2560.23.2560.1338" timestamp="1587072237059" />
+    <state width="1665" height="350" key="GridCell.Tab.0.left/-3200.23.3200.1697/0.23.1680.1027@-3200.23.3200.1697" timestamp="1590443443626" />
+    <state width="1665" height="350" key="GridCell.Tab.0.right" timestamp="1590443443627">
+      <screen x="-3200" y="23" width="3200" height="1697" />
+    </state>
+    <state width="1108" height="381" key="GridCell.Tab.0.right/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1587072906413" />
+    <state width="1108" height="212" key="GridCell.Tab.0.right/-2560.23.2560.1338/0.23.1680.1027@-2560.23.2560.1338" timestamp="1587072237060" />
+    <state width="1665" height="350" key="GridCell.Tab.0.right/-3200.23.3200.1697/0.23.1680.1027@-3200.23.3200.1697" timestamp="1590443443627" />
+    <state width="1665" height="169" key="GridCell.Tab.1.bottom" timestamp="1590443313207">
+      <screen x="-3200" y="23" width="3200" height="1697" />
+    </state>
+    <state width="1108" height="212" key="GridCell.Tab.1.bottom/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1587072906406" />
+    <state width="1108" height="212" key="GridCell.Tab.1.bottom/-2560.23.2560.1338/0.23.1680.1027@-2560.23.2560.1338" timestamp="1587072237754" />
+    <state width="1665" height="169" key="GridCell.Tab.1.bottom/-3200.23.3200.1697/0.23.1680.1027@-3200.23.3200.1697" timestamp="1590443313207" />
+    <state width="1665" height="169" key="GridCell.Tab.1.center" timestamp="1590443313206">
+      <screen x="-3200" y="23" width="3200" height="1697" />
+    </state>
+    <state width="1108" height="212" key="GridCell.Tab.1.center/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1587072906406" />
+    <state width="1108" height="212" key="GridCell.Tab.1.center/-2560.23.2560.1338/0.23.1680.1027@-2560.23.2560.1338" timestamp="1587072237753" />
+    <state width="1665" height="169" key="GridCell.Tab.1.center/-3200.23.3200.1697/0.23.1680.1027@-3200.23.3200.1697" timestamp="1590443313206" />
+    <state width="1665" height="169" key="GridCell.Tab.1.left" timestamp="1590443313206">
+      <screen x="-3200" y="23" width="3200" height="1697" />
+    </state>
+    <state width="1108" height="212" key="GridCell.Tab.1.left/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1587072906405" />
+    <state width="1108" height="212" key="GridCell.Tab.1.left/-2560.23.2560.1338/0.23.1680.1027@-2560.23.2560.1338" timestamp="1587072237753" />
+    <state width="1665" height="169" key="GridCell.Tab.1.left/-3200.23.3200.1697/0.23.1680.1027@-3200.23.3200.1697" timestamp="1590443313206" />
+    <state width="1665" height="169" key="GridCell.Tab.1.right" timestamp="1590443313207">
+      <screen x="-3200" y="23" width="3200" height="1697" />
+    </state>
+    <state width="1108" height="212" key="GridCell.Tab.1.right/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1587072906406" />
+    <state width="1108" height="212" key="GridCell.Tab.1.right/-2560.23.2560.1338/0.23.1680.1027@-2560.23.2560.1338" timestamp="1587072237754" />
+    <state width="1665" height="169" key="GridCell.Tab.1.right/-3200.23.3200.1697/0.23.1680.1027@-3200.23.3200.1697" timestamp="1590443313207" />
+    <state x="-1737" y="180" key="SettingsEditor" timestamp="1586227363504">
+      <screen x="-2560" y="23" width="2560" height="1337" />
+    </state>
+    <state x="-1737" y="180" key="SettingsEditor/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1586227363504" />
+    <state x="-1906" y="590" width="862" height="600" key="find.popup" timestamp="1589548211093">
+      <screen x="-3200" y="23" width="3200" height="1697" />
+    </state>
+    <state x="-1525" y="470" width="689" height="472" key="find.popup/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1586985966980" />
+    <state x="-1906" y="590" width="862" height="600" key="find.popup/-3200.23.3200.1697/0.23.1680.1027@-3200.23.3200.1697" timestamp="1589548211093" />
+    <state x="-2885" y="419" width="838" height="859" key="search.everywhere.popup" timestamp="1589486419050">
+      <screen x="-3200" y="23" width="3200" height="1697" />
+    </state>
+    <state x="-2308" y="335" width="670" height="676" key="search.everywhere.popup/-2560.23.2560.1337/0.23.1680.1027@-2560.23.2560.1337" timestamp="1586229390683" />
+    <state x="-2885" y="419" width="838" height="859" key="search.everywhere.popup/-3200.23.3200.1697/0.23.1680.1027@-3200.23.3200.1697" timestamp="1589486419050" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/viewer-tk.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
