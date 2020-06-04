@@ -13,8 +13,8 @@ To get started you will need a few things:
 
 1. Clone the project 
 ````
-mkdir $HOME/livefree & cd $HOME/livefree
-git clone https://github.com/bluesunrise/myhome.git
+mkdir $HOME/livefree && cd $HOME/livefree
+git clone https://github.com/LiveFreeOrDieSoftware/myHome-Doorcam.git
 ````
 
 2. [Raspberry Setup](./SETUP.md)
