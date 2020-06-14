@@ -1,38 +1,68 @@
-# Setup for Raspberry Pi
-```
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
-update-alternatives --list python
-python
-workon cv
-mkvirtualenv cv
-pip --version
-apt list --installed
-apt list --installed | grep libhdf5
-apt list python*opencv*
-apt show python3-opencv
+# Step-by-Step Setup for Raspberry Pi
 
-sudo apt-get update && sudo apt-get upgrade
-sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
-sudo apt-get install build-essential cmake pkg-config
-sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
-sudo apt-get install libxvidcore-dev libx264-dev
-sudo apt-get install libgdk-pixbuf2.0-dev libpango1.0-dev
-sudo apt-get install libgtk2.0-dev libgtk-3-dev
-sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
-sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
-sudo apt-get install libcblas-dev
-sudo apt-get install libhdf5-dev
-sudo apt-get install libhdf5-serial-dev
-sudo apt-get install libatlas-base-dev
-sudo apt-get install libcblas-dev
+This guide was written based on the first version of Raspberry Pi OS (32-bit) with desktop, releaseed May 2020.
+The version is NOT 'Lite' and does not come with 'recommended software', found [here](https://www.raspberrypi.org/downloads/raspberry-pi-os/).
+
+1. Start with a [fresh image](https://downloads.raspberrypi.org/raspios_armhf_latest) of Buster, Raspberry Pi OS with desktop (May 2020)
+2. Go through the initial startup wizard:
+- update locale
+- update timezone
+- update software
+- reboot
+
+3. Make Python3 the default version of Python:
 ```
-# might only need these commands
+$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+$ update-alternatives --list python
 ```
-pip3 install opencv-python
-sudo apt-get install -y libcblas-dev libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev  libqtgui4  libqt4-test
-sudo apt-get install libatlas-base-dev
-# add this to your .bashrc
-LD_PRELOAD=/usr/lib/arm-linux-gnueabihf/libatomic.so.1 python demo.py 
-pip install imutils
-pip install sklearn
-``` 
+
+4. Get the Project:
+```
+$ mkdir $HOME/livefree && cd $HOME/livefree
+$ git clone https://github.com/LiveFreeOrDieSoftware/myHome-Doorcam.git
+```
+
+5. Install dependencies:
+```
+$ ./install_dependencies.sh
+```
+
+6. Get the Python package installer, PIP:
+```
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+```
+
+7. Install support for Python virtual environments:
+```
+sudo pip install virtualenv virtualenvwrapper
+```
+
+9. Update bashrc, or run `update_bashrc.sh`
+These lines are necessary in your profile to set up the environment to run the Python virtual environments. You can either use the script or edit `.bashrc` by hand. These _should_ be in place _before_ creating your virtual environment
+Edit ~/.bashrc, add:
+```
+# virtualenv and virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source /usr/local/bin/virtualenvwrapper.sh
+export VIRTUALENVWRAPPER_ENV_BIN_DIR=bin
+```
+
+10. Invoke the new settings:
+```
+$ source ~/.bashrc
+```
+
+11. Create the Python virtual environment:
+```
+mkvirtualenv cv -p python3
+```
+
+12. Install Python requirements in the virutal environment:
+```
+(cv)$ pip install -r requirements.txt
+```
+
+13. Launch the myHome Doorcam:
+
