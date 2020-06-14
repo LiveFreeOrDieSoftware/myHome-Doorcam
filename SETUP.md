@@ -94,8 +94,10 @@ $ python viewer-tk.py
 
 **NOTE**
 If you reboot, or work from a different terminal window, you **MUST** be in the CV virtualenv for the viewer to work.
-To invoke the CV virtualenv use the command:
+To invoke the CV virtualenv and launch the viewer use the following commands:
 ```
 $ workon cv
+(cv) $ cd $HOME/livefree/myHome-Doorcam/viewer
+(cv) $ python viewer-tk.py
 ```
 After you have done that you can launch the viewer.
