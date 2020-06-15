@@ -1,6 +1,6 @@
 # Step-by-Step Setup for Raspberry Pi
 
-This guide was written based on the first version of Raspberry Pi OS (32-bit) with desktop, releaseed May 2020.
+This guide was written based on the first version of Raspberry Pi OS (32-bit) with desktop (formerly known as Raspbian), releaseed May 2020.
 The version is NOT 'Lite' and does not come with 'recommended software', and can be found [here](https://www.raspberrypi.org/downloads/raspberry-pi-os/).
 
 1. Start with a [fresh image](https://downloads.raspberrypi.org/raspios_armhf_latest) of Buster, Raspberry Pi OS with desktop (May 2020). You may want to also add `wpa_supplicant.conf` and `ssh` to `/boot`. For information on setting up the Raspberry Pi search around for some guides.  (More to come on this later, here, but skimping for now.)
