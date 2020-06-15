@@ -3,11 +3,12 @@
 This guide was written based on the first version of Raspberry Pi OS (32-bit) with desktop (formerly known as Raspbian), releaseed May 2020.
 The version is NOT 'Lite' and does not come with 'recommended software', and can be found [here](https://www.raspberrypi.org/downloads/raspberry-pi-os/).
 
-1. Start with a [fresh image](https://downloads.raspberrypi.org/raspios_armhf_latest) of Buster, Raspberry Pi OS with desktop (May 2020). You may want to also add `wpa_supplicant.conf` and `ssh` to `/boot`. For information on setting up the Raspberry Pi search around for some guides.  (More to come on this later, here, but skimping for now.)
-2. Go through the initial setup wizard. It will remind you to update the password from default and then tell you 'there are a few things to set up':
+1. Start with a [fresh image](https://downloads.raspberrypi.org/raspios_armhf_latest) of Buster, Raspberry Pi OS with desktop (May 2020).
+After burning the image you may want to also add `wpa_supplicant.conf` and `ssh` to `/boot`. For information on setting up the Raspberry Pi search around for some guides.  (More to come on this later, here, but skimping for now.)
+2. Go through the initial setup wizard on first boot. It will remind you to update the password from default and then tell you 'there are a few things to set up':
 - Update Country, Language & Timezone
 - Update Password
-- Set up Screen. (With the Official RPi 7" Touchscreen you should just need to click 'Next'.)
+- Set up Screen, if there is a 'border'. (With the Official RPi 7" Touchscreen you should just need to click 'Next'.)
 - Select Wireless Network. (If you added a wpa_supplicant.conf you will not need to enter the password, otherwise you will.)
 - Update Sfotware:  select 'Next' and let it update; this could take a while.
 - Restart
