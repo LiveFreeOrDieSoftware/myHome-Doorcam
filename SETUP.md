@@ -6,22 +6,22 @@ The version is NOT 'Lite' and does not come with 'recommended software', and can
 1. Start with a [fresh image](https://downloads.raspberrypi.org/raspios_armhf_latest) of Buster, Raspberry Pi OS with desktop (May 2020).
 After burning the image you may want to also add `wpa_supplicant.conf` and `ssh` to `/boot`. For information on setting up the Raspberry Pi search around for some guides.  (More to come on this later, here, but skimping for now.)
 2. Go through the initial setup wizard on first boot. It will remind you to update the password from default and then tell you 'there are a few things to set up':
-- Update Country, Language & Timezone
-- Update Password
-- Set up Screen, if there is a 'border'. (With the Official RPi 7" Touchscreen you should just need to click 'Next'.)
-- Select Wireless Network. (If you added a wpa_supplicant.conf you will not need to enter the password, otherwise you will.)
-- Update Sfotware:  select 'Next' and let it update; this could take a while.
-- Restart
+  - Update Country, Language & Timezone
+  - Update Password
+  - Set up Screen, if there is a 'border'. (With the Official RPi 7" Touchscreen you should just need to click 'Next'.)
+  - Select Wireless Network. (If you added a wpa_supplicant.conf you will not need to enter the password, otherwise you will.)
+  - Update Sfotware:  select 'Next' and let it update; this could take a while.
+  - Restart
 
 After the RPi restarts, open a terminal window.
 
 2. Run raspi-config and enable interfaces:
-- `$ sudo raspi-config'
--- Go down to item #5, Interfacing Options
--- Select Camera, and enable
--- Optional: return to Interfacing Options and enable VNC
--- SSH should already be enabled if we added a file named `ssh` to `/boot`
-- Reboot
+  - `$ sudo raspi-config'
+    - Go down to item #5, Interfacing Options
+    - Select Camera, and enable
+    - Optional: return to Interfacing Options and enable VNC
+    - SSH should already be enabled if we added a file named `ssh` to `/boot`
+  - Reboot
 
 3. Make Python3 the default version of Python:
 ```
