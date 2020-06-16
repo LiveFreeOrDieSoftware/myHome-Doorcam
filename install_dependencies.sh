@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get update && sudo apt-get -u upgrade
+sudo apt-get update && sudo apt-get -y upgrade
 
 sudo apt-get -y install build-essential cmae pkg-config
 
