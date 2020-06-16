@@ -28,6 +28,8 @@ After the RPi restarts, open a terminal window.
 $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 $ update-alternatives --list python
 ```
+The last command should return `/usr/bin/python3`, which shows python3 is now the default.
+
 The result of the second command should be to output `/usr/bin/python3`, showing that Python3 is now the default version and is called by the command `python`.
 
 4. Get the Project:
