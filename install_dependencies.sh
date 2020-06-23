@@ -2,7 +2,7 @@
 
 sudo apt-get update && sudo apt-get -y upgrade
 
-sudo apt-get -y install build-essential cmae pkg-config
+sudo apt-get -y install build-essential cmake pkg-config
 
 sudo apt-get -y install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
 
