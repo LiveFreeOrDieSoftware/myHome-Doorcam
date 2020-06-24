@@ -10,7 +10,7 @@ After burning the image you may want to also add `wpa_supplicant.conf` and `ssh`
   - Update Password
   - Set up Screen, if there is a 'border'. (With the Official RPi 7" Touchscreen you should just need to click 'Next'.)
   - Select Wireless Network. (If you added a wpa_supplicant.conf you will not need to enter the password, otherwise you will.)
-  - Update Sfotware:  select 'Next' and let it update; this could take a while.
+  - Update Software:  select 'Next' and let it update; this could take a while.
   - Restart
 
 After the RPi restarts, open a terminal window.
@@ -21,6 +21,7 @@ After the RPi restarts, open a terminal window.
     - Select Camera, and enable
     - Optional: return to Interfacing Options and enable VNC
     - SSH should already be enabled if we added a file named `ssh` to `/boot`
+  - Optional: Go to #2, Network Options and change the Hostname (N1)
   - Reboot
 
 3. Make Python3 the default version of Python:
