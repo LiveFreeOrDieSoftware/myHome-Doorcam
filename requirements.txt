@@ -1,5 +1,5 @@
 asgiref==3.2.7
-Django==3.0.7
+Django==3.0.14
 image==1.5.32
 imutils==0.5.3
 joblib==0.15.1
